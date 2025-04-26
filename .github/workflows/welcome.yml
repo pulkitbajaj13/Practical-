@@ -1,0 +1,56 @@
+project:
+  name: InkedEssence
+  type: Fashion e-commerce website
+  description: >
+    Premium fashion for the modern individual. Quality meets style in every piece.
+
+branding:
+  palette:
+    - name: White
+      hex: "#ffffff"
+      usage: Backgrounds, clean space, primary contrast
+    - name: Dark Gray
+      hex: "#1f2937"
+      usage: Primary text color
+    - name: Light Gray
+      hex: "#f9fafb"
+      usage: Menu background, light backgrounds
+    - name: Indigo
+      hex: "#4f46e5"
+      usage: Buttons, highlights
+    - name: Darker Indigo
+      hex: "#4338ca"
+      usage: Button hover state
+    - name: Card Background
+      hex: "#f3f4f6"
+      usage: Cards and panels background
+
+structure:
+  frontend:
+    - index.html
+    - categories.html
+    - aboutus.html
+    - contact.html
+    - wishlist.html
+    - privacy.html
+    - forgot_password.html
+    - login.html
+    - assets/
+      - css/
+      - js/
+      - images/
+  backend: []
+  docs:
+    - InkedEssence-Documentation.docx
+
+
+features:
+  core:
+    - Free Shipping on orders over ₹1000
+    - Easy Returns with 30-day return policy
+    - 24/7 Customer Support
+    - Shopping Cart functionality
+    - Wishlist feature
+    - User Login and Signup
+    - Light/Dark Theme Toggle
+    - Newsletter subscription
